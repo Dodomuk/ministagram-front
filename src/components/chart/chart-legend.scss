@@ -1,0 +1,14 @@
+.chart-legend {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .chart-circle {
+        position: relative;
+        flex: non;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        // background-color: 차트 색상; 
+    }
+}
