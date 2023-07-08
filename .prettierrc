@@ -3,7 +3,7 @@
     "semi": true,
     "tabWidth": 4,
     "trailingComma": "none",
-    "printWidth": 150,
+    "printWidth": 200,
     "useTabs": false,
     "endOfLine": "auto",
     "quoteProps": "as-needed",

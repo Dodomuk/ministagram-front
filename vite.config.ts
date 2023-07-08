@@ -21,10 +21,6 @@ export default defineConfig({
                 replacement: path.resolve(__dirname, 'src/module')
             },
             {
-                find: '@selector',
-                replacement: path.resolve(__dirname, 'src/selector')
-            },
-            {
                 find: '@interface',
                 replacement: path.resolve(__dirname, 'src/interface')
             },
@@ -35,10 +31,6 @@ export default defineConfig({
             {
                 find: '@assets',
                 replacement: path.resolve(__dirname, 'src/assets')
-            },
-            {
-                find: '@chart',
-                replacement: path.resolve(__dirname, 'src/components/chart')
             },
             {
                 find: '@common',

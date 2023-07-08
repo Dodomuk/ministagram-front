@@ -2,7 +2,11 @@
   "compilerOptions": {
     "target": "ESNext",
     "useDefineForClassFields": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": false,
@@ -16,19 +20,41 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@/*": ["./src/*"],
-      "@components/*": ["./src/components/*"],
-      "@store/*": ["./src/store/*"],
-      "@module/*": ["./src/module/*"],
-      "@selector/*": ["./src/selector/*"],
-      "@interface/*": ["./src/interface/*"],
-      "@assets/*": ["./src/assets/*"],
-      "@bridge/*": ["./src/components/bridge/*"],
-      "@chart/*": ["./src/components/chart/*"],
-      "@common/*": ["./src/components/common/*"],
-      "@scss/*": ["./src/scss/*"]
+      "@/*": [
+        "./src/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@store/*": [
+        "./src/store/*"
+      ],
+      "@module/*": [
+        "./src/module/*"
+      ],
+      "@interface/*": [
+        "./src/interface/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@bridge/*": [
+        "./src/components/bridge/*"
+      ],
+      "@common/*": [
+        "./src/components/common/*"
+      ],
+      "@scss/*": [
+        "./src/scss/*"
+      ]
     }
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }
